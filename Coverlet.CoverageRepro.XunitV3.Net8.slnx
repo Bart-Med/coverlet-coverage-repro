@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="coverlet.runsettings" />
+    <File Path="NuGet.Config" />
+    <File Path="readme.md" />
+  </Folder>
+  <Project Path="Demo.Api.IntegrationTests/Demo.Api.IntegrationTests.csproj" />
+  <Project Path="Demo.Api/Demo.Api.csproj" />
+  <Project Path="DemoLib/DemoLib.csproj" />
+</Solution>

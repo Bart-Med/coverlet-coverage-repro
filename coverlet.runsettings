@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <ResultsDirectory>TestResults</ResultsDirectory>
+    <EnvironmentVariables>
+      <!-- https://learn.microsoft.com/en-us/dotnet/core/runtime-config/compilation -->
+      <DOTNET_TieredCompilation>0</DOTNET_TieredCompilation>
+      <DOTNET_ReadyToRun>0</DOTNET_ReadyToRun>
+      <DOTNET_TieredPGO>0</DOTNET_TieredPGO>
+    </EnvironmentVariables>
+  </RunConfiguration>
+
+  <!-- Coverlet Collector -->
+  <!--<DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat Code Coverage">
+        <Configuration>
+          <Format>cobertura,json</Format>
+          <Exclude>[xunit.*]*,[*.Tests]*</Exclude>
+          <ExcludeByAttribute>Obsolete,GeneratedCodeAttribute,CompilerGeneratedAttribute</ExcludeByAttribute>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>-->
+</RunSettings>
