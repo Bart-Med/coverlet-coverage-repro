@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-     <PackageReference Include="coverlet.msbuild" Version="6.0.4"/> 
+    <!-- <PackageReference Include="coverlet.msbuild" Version="6.0.4"/> -->
     <!-- <PackageReference Include="coverlet.msbuild" Version="8.0.0-preview.8.g0d5710324a"/> -->
-    <!--<PackageReference Include="coverlet.collector" Version="6.0.4" />-->
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
 
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.11" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
